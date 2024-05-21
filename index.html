@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i>Purebasket</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+
+        </div>
+
+        <!-- shopping cart -->
+
+        <div class="shopping-cart">
+            <h3 class="total"> total: <span> </span></h3>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <!-- end -->
+
+        <!-- login -->
+
+        <form action="login.php" class="login-form" method="post">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box" id="email" name="email">
+            <input type="password" placeholder="enter your password" class="box" id="password" name="password">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <button href="#" class="btn" type="submit"> login </button>
+
+        </form>
+
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>buy best <span> organic product </span> online </h3>
+            <a href="#" class="btn"> get yours now </a>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- banner -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="banner1.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>Vegetables</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="banner2.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>fruits</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="banner3.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>assorted</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="tomato.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tomato</h3>
+                    <div class="price">&#8377 40/kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="apple.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Apple</h3>
+                    <div class="price">&#8377 100/kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Coffee</h3>
+                    <div class="price">&#8377 140.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="carrort.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Carrort</h3>
+                    <div class="price">&#8377 30/kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Milk.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Milk</h3>
+                    <div class="price">&#8377 60/-ltr</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Beetroot.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Beetroot</h3>
+                    <div class="price">&#8377 42.99kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="cake.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cake</h3>
+                    <div class="price">&#8377 399.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="pine apple.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pine Apple</h3>
+                    <div class="price">&#8377 60.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about </span> us </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>we make organic food in market</h3>
+                <div class="divider"></div>
+                <p>Crafting wholesome organic goodness, our market offers a delectable array of nutrient-rich,
+                    farm-fresh foods. Grown with love, our organic produce brings health and sustainability to your
+                    plate. Taste nature's purity today!</p>
+                <p>Fresh, pure, organic delights, savor nature's goodness at our market.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="about1.png" alt="">
+            </div>
+
+            <div class="image">
+                <img src="about2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="contact.png" alt="error">
+            </div>
+
+            <form action="contact.php" method="post">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name" id="first" name="first">
+                    <input type="text" placeholder="last name" id="last" name="last">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address" id="email" name="email">
+                    <input type="tel" placeholder="phone" id="number" name="number">
+                </div>
+
+                <textarea placeholder="message" id="message" name="message" cols="30" rows="10"></textarea>
+                <input type="text" id="message" name="message">
+
+                <button href="index.html" type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <div class="share">
+                    <a href="https://www.facebook.com/" class="fab fa-facebook-f" target="_blank"></a>
+                    <a href="https://twitter.com/?lang=en" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                    <a href="https://in.linkedin.com/" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+91-9568925854</p>
+                <a href="#" class="link">chauhansagar078@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>Ghaziabad,UP</p>
+            </div>
+
+        </div>
+
+        <div class="credit"> © created by sagar, all rights reserved!</div>
+
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
