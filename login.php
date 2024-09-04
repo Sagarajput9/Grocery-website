@@ -1,5 +1,5 @@
 <?php
-   $con=mysqli_connect('localhost','id21713414_purebasket','Sagar@22','id21713414_grocery');
+   $con=mysqli_connect('localhost','id21713414_purebasket','id21713414_grocery');
 
    $Email = $_POST['email'];
    $Password = $_POST['password'];
